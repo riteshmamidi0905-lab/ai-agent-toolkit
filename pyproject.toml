@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiagent"
+version = "0.1.0"
+description = "A compact ReAct-style tool-using agent framework: safe tools, a deterministic offline planner, a benchmark, and optional Gemini/OpenAI LLM backends."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ritesh Mamidi" }]
+keywords = ["ai-agent", "react", "tool-use", "llm", "gemini", "openai",
+            "agents"]
+dependencies = ["matplotlib>=3.6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+gemini = ["google-generativeai>=0.5"]
+openai = ["openai>=1.0"]
+
+[tool.setuptools.packages.find]
+include = ["aiagent*"]
