@@ -1,3 +1,5 @@
+> **▶ [Live demo](https://riteshmamidi0905-lab.github.io/demos/ai-agent-toolkit.html)** — the interactive agent dashboard (task benchmark + step-by-step reasoning traces) this project generates.
+
 # AI Agent Toolkit (`aiagent`)
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
